@@ -1,4 +1,5 @@
-import pygame
+# Snake Game built using Python and Pygame
+# Features: food, scoring, restart, self-collision, increasing speedimport pygame
 import sys
 import random
 
@@ -115,4 +116,5 @@ while running:
     pygame.display.update()
 
 pygame.quit()
+
 sys.exit()
